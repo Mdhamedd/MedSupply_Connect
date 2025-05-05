@@ -1,11 +1,11 @@
-import React from 'react'
+"use client";
+
+import React from "react";
+import { useUser } from "@clerk/nextjs";
 
 function Footer() {
-  return (
-    <div>
-      Footer
-    </div>
-  )
+  const { user } = useUser();
+  return user && <div>Footer</div>;
 }
 
-export default Footer
+export default Footer;

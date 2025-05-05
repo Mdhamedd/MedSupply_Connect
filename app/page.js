@@ -3,9 +3,9 @@ import ProductSection from "./_components/ProductSection";
 
 export default function Home() {
   return (
-    <diV>
+    <div>
       <Hero />
       <ProductSection />
-    </diV>
+    </div>
   );
 }
