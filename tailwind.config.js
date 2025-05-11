@@ -1,0 +1,13 @@
+// ... existing code ...
+module.exports = {
+  // ... existing code ...
+  theme: {
+    extend: {
+      // ... existing code ...
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+      },
+    },
+  },
+  // ... existing code ...
+}

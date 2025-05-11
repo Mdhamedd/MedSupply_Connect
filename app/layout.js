@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
             content="telephone=no, date=no, email=no, address=no"
           />
         </head>
-        <body className={`${tajawal.variable} font-tajawal min-h-screen`}>
+        <body className={`${tajawal.variable} font-tajawal min-h-screen`}suppressHydrationWarning={true}>
           <ClientWrapper>{children}</ClientWrapper>
         </body>
       </html>

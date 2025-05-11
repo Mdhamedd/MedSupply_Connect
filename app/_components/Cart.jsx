@@ -339,7 +339,7 @@ const Cart = () => {
             </button>
             <h2 className="text-sm font-medium flex items-center gap-2">
               <ShoppingCart size={16} />
-              <span>سلة التسوق ({cartCount})</span>
+              <span className="text-black">سلة التسوق ({cartCount})</span>
             </h2>
             <span className="text-sm font-medium text-indigo-600 transition-all duration-200">
               {totalPrice} جنيه

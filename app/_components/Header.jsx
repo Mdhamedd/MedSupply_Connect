@@ -3,14 +3,12 @@
 import React, {
   useEffect,
   useState,
-  useCallback,
   useContext,
   memo,
 } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { UserButton, useUser } from "@clerk/nextjs";
-import { ShoppingCart } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { CartContext } from "../_context/CartContext";
 import CartApis from "../_utils/CartApis";
@@ -19,7 +17,7 @@ import Cart from "./Cart";
 const NAVIGATION_LINKS = [
   { href: "/", label: "الرئيسية" },
   { href: "/explore", label: "استكشف" },
-  { href: "/projects", label: "مشاريع" },
+  // { href: "/projects", label: "مشاريع" },
   { href: "/about", label: "عنا" },
   { href: "/contact", label: "اتصل بنا" },
 ];

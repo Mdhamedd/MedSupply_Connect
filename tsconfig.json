@@ -19,6 +19,6 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "lib/stripe.js", "app/api/create-checkout-session/route.js"],
   "exclude": ["node_modules"]
 }
